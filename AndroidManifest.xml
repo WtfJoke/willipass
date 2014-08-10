@@ -23,12 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddSubjectsActivity"
-            android:label="@string/title_activity_add_subjects" >
-        </activity>
-        <activity
             android:name="ch.willipass.gradecalculator.subjects.AddSubjectActivity"
-            android:label="@string/title_activity_add_subject"
+            android:label="@string/title_activity_add_subjects"
             android:parentActivityName=".WillIPassMainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
